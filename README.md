@@ -27,3 +27,12 @@
 3. Third Item
 
 
+[搜索链接 谷歌](https://www.google.com)
+
+
+```
+function helloWorld() {
+console.log("Hello, world!");
+}
+```
+
