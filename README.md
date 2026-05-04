@@ -1,43 +1,33 @@
-# week9
-11
-智慧 hihihihi
+# Quiz 8
 
-# Header 1
-## Header 2
-### Header 3
-#### Header 4
-##### Header 5
-###### Header 6
+## Part 1: Imaging Technique Inspiration
 
+### Chosen technique: Slit-scan imagery  
+My inspiration is the slit-scan effect, used in the “Stargate” sequence from *2001: A Space Odyssey*. I want to incorporate its stretched light trails and the way it combines motion and time into one frame. That feels useful for the assignment, because it creates a strong visual impact from simple source material and could make an interactive sketch feel more cinematic, immersive, and experimental. The idea of turning movement into abstract bands of colour is a strong direction for my major project.
 
-**Bold Text** or __Bold Text__
-*Italic Text* or _Italic Text_
+![Stargate slit-scan reference 1](images/stargate-1.png)
+*Screenshot reference from* 2001 *slit-scan coverage.*
 
+![Stargate slit-scan reference 2](images/stargate-2.png)
+*Second screenshot showing the colour tunnel / stretched light effect.*
 
-- Item 1
-- Item 2
-  - Subitem 2.1
-  - Subitem 2.2
+**Sources for screenshots**
+- RedShark article on Douglas Trumbull and slit-scan: https://www.redsharknews.com/douglas-trumbull-and-how-slit-scan-changed-sfx
+- Optional additional source on the technique: https://learn.illuminations.mit.edu/chapter/slit-scan
 
+---
 
+## Part 2: Coding Technique Exploration
 
+### Coding technique: Video slit-scan with pixel copying in p5.js  
+A useful coding technique is slit-scanning a live or recorded video stream by copying a thin vertical slice from each frame and placing it across the canvas over time. This could help me recreate the time-smearing effect from my inspiration while still being achievable in p5.js. Instead of advanced film processing, the sketch builds the image frame by frame using pixel operations, so motion becomes colour bands and distortions. It is a practical way to translate the original visual idea into an interactive coding project.
 
-1. First Item
-2. Second Item
-3. Third Item
+![Slit-scan coding example](images/slit-scan-code.png)
+*Screenshot of a p5.js slit-scan example in action.*
 
+**Example implementation**
+- Coding Train explanation: https://thecodingtrain.com/tracks/pixels/pixels/slit-scan/
+- Example code in p5.js editor: https://editor.p5js.org/codingtrain/sketches/B1L5j8uk4
 
-[搜索链接 谷歌](https://www.google.com)
+---
 
-
-```
-function helloWorld() {
-console.log("Hello, world!");
-}
-```
-
-![An image of the Mona Lisa](readmeImages/Mona_Lisa_by_Leonardo_da_Vinci_500_x_700.jpg)
-
-
-
-> This is a blockquote.
